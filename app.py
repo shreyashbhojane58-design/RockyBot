@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from groq import Groq
 
 # LangChain Imports
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import UnstructuredURLLoader, PyPDFLoader, DirectoryLoader
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
@@ -169,4 +169,5 @@ If you don't know, say "I don't have enough information."
             else:
                 st.write(f"🌐 {source}")
     else:
+
         st.warning("Please click 'Process URLs & PDFs' first!")

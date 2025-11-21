@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+faiss-cpu
+python-dotenv
+requests
+unstructured
+tiktoken
+langchain-groq
+beautifulsoup4
+html5lib
+sentence-transformers

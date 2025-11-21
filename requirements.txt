@@ -12,4 +12,3 @@ langchain-groq
 beautifulsoup4
 html5lib
 sentence-transformers
-
